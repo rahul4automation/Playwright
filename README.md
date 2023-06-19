@@ -14,7 +14,7 @@ Here are some common tasks you can perform using the Page class in Playwright:
 
 Navigating to a URL:
 
-page.navigate("https://example.com"): Loads the specified URL in the page.
+page.navigate("https://www.bestbuy.com/"): Loads the specified URL in the page.
 Waiting for the page to load:
 
 page.waitForLoadState(LoadState.NETWORKIDLE): Waits for the page to reach the network idle state.
