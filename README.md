@@ -36,3 +36,36 @@ page.evaluateHandle("javascriptCode"): Executes JavaScript code and returns a ha
 Taking screenshots:
 
 page.screenshot(new Page.ScreenshotOptions().setPath("screenshot.png")): Captures a screenshot of the page.
+
+
+what is browser in playwright
+
+
+In Playwright, the Browser class represents a web browser instance. It provides methods to launch and control a browser, create new browser contexts, and manage multiple browser instances.
+
+Here are some key features and functionalities of the Browser class in Playwright:
+
+Launching a browser:
+
+BrowserType.launch(): Launches a new instance of a web browser.
+Browser.newContext(): Creates a new browser context within the browser instance.
+Creating browser contexts:
+
+Browser.newContext(): Creates a new browser context, which represents an isolated browsing session.
+BrowserContext.newPage(): Creates a new page within a browser context.
+Controlling the browser:
+
+Browser.close(): Closes the browser and all its associated contexts and pages.
+Browser.isConnected(): Checks if the browser instance is connected or closed.
+Managing browser contexts:
+
+BrowserContext.newPage(): Creates a new page within a browser context.
+BrowserContext.close(): Closes the browser context and all its associated pages.
+Managing browser instances:
+
+BrowserType.launch(): Launches a new instance of a web browser.
+BrowserType.connect(): Connects to an existing browser instance.
+BrowserType.close(): Closes all running browser instances.
+Configuring browser options:
+
+BrowserType.launch(new BrowserType.LaunchOptions().setHeadless(true)): Configures the launch options for the browser, such as running in headless mode.
