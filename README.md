@@ -1,12 +1,13 @@
 # Playwright
-Why Use Playwright ?
+
+1. Why Use Playwright ?
 .Eliminates flasky tests 
 . Cross Browser and Cross Platform
 . Fast Execution 
 .Great reporting tools
 .Work out of the box
 
-What is Page in Playwright ?
+2. What is Page in Playwright ?
 
 In Playwright, the Page class represents a single web page in a browser context. It provides methods and properties to interact with the web page, such as navigating to URLs, interacting with elements, executing JavaScript code, and more.
 
@@ -38,7 +39,7 @@ Taking screenshots:
 page.screenshot(new Page.ScreenshotOptions().setPath("screenshot.png")): Captures a screenshot of the page.
 
 
-what is browser in playwright
+3. what is browser in playwright
 
 
 In Playwright, the Browser class represents a web browser instance. It provides methods to launch and control a browser, create new browser contexts, and manage multiple browser instances.
