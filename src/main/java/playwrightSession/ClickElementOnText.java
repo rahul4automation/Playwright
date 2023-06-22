@@ -1,7 +1,6 @@
 package playwrightSession;
 
 import com.microsoft.playwright.*;
-import com.microsoft.playwright.options.LoadState;
 import org.junit.Test;
 
 import java.util.List;
@@ -15,7 +14,7 @@ public class Test005 {
         try{
         Playwright playwright =Playwright.create();
         Browser browser=playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
-        BrowserContext context =browser.newContext();
+        PageContext context =browser.newContext();
         Page page=context.newPage();
         page.navigate("https://www.bestbuy.com/?intl=nosplash");
         String targetText = "Deal of the Day";
