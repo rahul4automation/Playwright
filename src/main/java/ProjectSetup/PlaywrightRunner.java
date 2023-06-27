@@ -32,7 +32,7 @@ public class PlaywrightRunner {
          browser =playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
          context=browser.newContext();
          page=context.newPage();
-        page.navigate("https://www.bestbuy.com/?intl=nosplash");
+         page.navigate("https://www.bestbuy.com/?intl=nosplash");
     }
 
 
