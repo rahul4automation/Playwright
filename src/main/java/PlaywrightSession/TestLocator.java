@@ -1,4 +1,4 @@
-package playwrightSession;
+package PlaywrightSession;
 
 import com.microsoft.playwright.*;
 import org.junit.Test;
