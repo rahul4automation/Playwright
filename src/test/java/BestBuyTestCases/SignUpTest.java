@@ -1,5 +1,5 @@
 package BestBuyTestCases;
-import ProjectSetUp.PlayWrightRunner;
+import CommonUtils.PlayWrightRunner;
 import com.microsoft.playwright.assertions.LocatorAssertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package ProjectSetUp;
+package CommonUtils;
 import BestBuyPages.CreateAccountPage;
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.Browser;
@@ -16,7 +16,7 @@ public class PlayWrightRunner {
 
     protected BrowserContext context;
 
-    protected  Page page;
+    protected static Page page;
 
     protected CreateAccountPage createAccountPage;
 

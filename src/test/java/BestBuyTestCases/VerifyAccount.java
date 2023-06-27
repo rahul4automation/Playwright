@@ -1,6 +1,7 @@
 package BestBuyTestCases;
 
-import ProjectSetUp.PlayWrightRunner;
+
+import CommonUtils.PlayWrightRunner;
 import org.junit.jupiter.api.Test;
 
 public class VerifyAccount extends PlayWrightRunner {
@@ -10,6 +11,10 @@ public class VerifyAccount extends PlayWrightRunner {
     public void VerifyAccountTitlePage()
     {
         createAccountPage.AccountPage();
+
     }
+
+
+
 
 }
