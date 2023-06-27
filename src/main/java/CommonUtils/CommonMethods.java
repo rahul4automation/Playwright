@@ -1,7 +1,7 @@
 package CommonUtils;
 
 import com.microsoft.playwright.ElementHandle;
-import com.microsoft.playwright.Page;
+
 
 
 public class CommonMethods extends PlayWrightRunner
