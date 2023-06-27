@@ -1,6 +1,5 @@
-package AutomationTestCases;
+package BestBuyTestCases;
 
-import BestBuyPages.CreateAccountPage;
 import ProjectSetUp.PlayWrightRunner;
 import org.junit.jupiter.api.Test;
 

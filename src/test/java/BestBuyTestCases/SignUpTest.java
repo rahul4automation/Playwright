@@ -1,4 +1,4 @@
-package AutomationTestCases;
+package BestBuyTestCases;
 import ProjectSetUp.PlayWrightRunner;
 import com.microsoft.playwright.assertions.LocatorAssertions;
 import org.junit.jupiter.api.Test;
