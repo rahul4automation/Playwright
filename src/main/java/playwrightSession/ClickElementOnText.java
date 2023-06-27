@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import java.util.List;
 
-public class Test005 {
+public class ClickElementOnText {
 
 
     @Test
@@ -14,7 +14,7 @@ public class Test005 {
         try{
         Playwright playwright =Playwright.create();
         Browser browser=playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
-        PageContext context =browser.newContext();
+        BrowserContext context =browser.newContext();
         Page page=context.newPage();
         page.navigate("https://www.bestbuy.com/?intl=nosplash");
         String targetText = "Deal of the Day";

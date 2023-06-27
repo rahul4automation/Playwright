@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.Arrays;
 
 
-public class Test004 {
+public class ListOfValueLocator {
 
     @Test
     public void ListOfValueLocatorHandle() {

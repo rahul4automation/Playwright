@@ -3,7 +3,7 @@ package playwrightSession;
 import com.microsoft.playwright.*;
 import org.junit.Test;
 
-public class Test003 {
+public class TestLocator {
 
     @Test
     public void Locators()

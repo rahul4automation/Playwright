@@ -7,7 +7,7 @@ import com.microsoft.playwright.Playwright;
 import org.junit.Test;
 import org.omg.Messaging.SyncScopeHelper;
 
-public class Test001 {
+public class LaunchUrl {
 
     @Test
     public void LauchGoogle()

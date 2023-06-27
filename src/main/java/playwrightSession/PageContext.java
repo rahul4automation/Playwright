@@ -4,7 +4,7 @@ import com.microsoft.playwright.*;
 import org.junit.Test;
 
 
-public class BrowserContext {
+public class PageContext {
 
     //Discuss About BrowserContext
 
