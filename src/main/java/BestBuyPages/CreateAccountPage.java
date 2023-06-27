@@ -23,7 +23,7 @@ public void AccountPage()
     createAccountPage.locator(FIRST_NAME).isEnabled();
     String ElementText=createAccountPage.locator(FIRST_NAME).textContent();
     System.out.println("Account name is on Page :"+ElementText);
-    assertEquals(Expected_Text, ElementText);
+    assertEquals(Expected_Text,ElementText);
 
 }
 
